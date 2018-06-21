@@ -7,7 +7,7 @@ provider "aws" {
   access_key = "${var.access_key}"
   secret_key = "${var.secret_key}"
 #  profile    = "${var.profile}"
-  region     = "ap-south-1"
+  region     = "ap-southeast-1"
 }
 
 data "aws_ami" "node_app_ami" {
